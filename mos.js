@@ -48,13 +48,13 @@ function start_experiment() {
         includes different number of methods.
     */
     if (set_num == "1") {
-        method_paths.push(wav_dir + "set" + set_num + "/banno_source.list");
-        method_paths.push(wav_dir + "set" + set_num + "/banno_target.list");
         method_paths.push(wav_dir + "set" + set_num + "/banno4000.list");
-        method_paths.push(wav_dir + "set" + set_num + "/banno4000FF.list");
+	method_paths.push(wav_dir + "set" + set_num + "/banno4000FF.list");
 	method_paths.push(wav_dir + "set" + set_num + "/banno4000new.list");
 	method_paths.push(wav_dir + "set" + set_num + "/banno4000newFF.list");
-	method_paths.push(wav_dir + "set" + set_num + "/bannobaseline.list");
+	method_paths.push(wav_dir + "set" + set_num + "/banno_source.list");
+        method_paths.push(wav_dir + "set" + set_num + "/banno_target.list");
+        method_paths.push(wav_dir + "set" + set_num + "/bannobaseline.list");
     } else if (set_num == "2") {
         method_paths.push(wav_dir + "set" + set_num + "/toda_source.list");
         method_paths.push(wav_dir + "set" + set_num + "/toda_target.list");
